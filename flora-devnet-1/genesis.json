@@ -83,7 +83,7 @@
     "consensus": null,
     "crisis": {
       "constant_fee": {
-        "denom": "stake",
+        "denom": "uflrd",
         "amount": "1000"
       }
     },
@@ -120,7 +120,132 @@
       "forward_relayers": []
     },
     "genutil": {
-      "gen_txs": []
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "qf3l3k",
+                  "identity": "1857FF1BC2EA6A69",
+                  "website": "https://chaintools.tech",
+                  "security_contact": "contact@chaintools.tech",
+                  "details": "STAKE | LEARN | EARN | Delegate to our validators and dive into blockchain technology with us."
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "floravaloper17rz489jqe4uws0mezwprc4nnj5r6t3traxd7fq",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "NzcOs+vNGrUiafl8FX74gyBX64zHN6ksS3x7bcSW8lg="
+                },
+                "value": {
+                  "denom": "uflrd",
+                  "amount": "10000000"
+                }
+              }
+            ],
+            "memo": "493cb356c0866f8059c7ec38df3a3f14f3b503f6@188.165.226.46:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AwuLSqg4eniHTCEYAvArVxm250Ls+ZF/K2rEenEgHpiG"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "2PO53IvgAAJYRIGZw7wg/M4i/o7lFPeSesDKLjUnbqg7YMz3Iv1PHgIK1idyLarY7loBGS3DGMnpV5VJwApsfQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "esp1",
+                  "identity": "",
+                  "website": "https://esprezzo.io",
+                  "security_contact": "aj@esprezzo.io",
+                  "details": "In house validator"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "floravaloper1l4mu52s04azrlkray8vydpejexhlcnwuqtxeyg",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "2YBPg5jMxA3pOH9u+x22rrSo6QL/BObPiEvnvLLYq9E="
+                },
+                "value": {
+                  "denom": "uflrd",
+                  "amount": "10000000"
+                }
+              }
+            ],
+            "memo": "859ebc96352b84416c76f9bc7a2d0f1e06095c69@172.173.12.10:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AugrGkQOUGZLlzv41QfYDg6CACw+lT3PAtV5hDimeQJL"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "OLMmASAiCTmUIPtG6Fw6Osw668X9/yJrvDSMnlRL0KwgQ1NcJdToO8jJRiyBF+Uyw/lNwKv2s8Cw/m6cCYp89A=="
+          ]
+        }
+      ]
     },
     "globalfee": {
       "params": {
@@ -138,7 +263,7 @@
       "params": {
         "min_deposit": [
           {
-            "denom": "stake",
+            "denom": "uflrd",
             "amount": "10000000"
           }
         ],
@@ -154,7 +279,7 @@
         "expedited_threshold": "0.667000000000000000",
         "expedited_min_deposit": [
           {
-            "denom": "stake",
+            "denom": "uflrd",
             "amount": "50000000"
           }
         ],
@@ -243,7 +368,7 @@
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
-        "mint_denom": "stake",
+        "mint_denom": "uflrd",
         "inflation_rate_change": "0.130000000000000000",
         "inflation_max": "0.200000000000000000",
         "inflation_min": "0.070000000000000000",
@@ -292,7 +417,7 @@
         "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
-        "bond_denom": "stake",
+        "bond_denom": "uflrd",
         "min_commission_rate": "0.000000000000000000"
       },
       "last_total_power": "0",
@@ -307,7 +432,7 @@
       "params": {
         "denom_creation_fee": [
           {
-            "denom": "stake",
+            "denom": "uflrd",
             "amount": "10000000"
           }
         ],
