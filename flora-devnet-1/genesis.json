@@ -1,7 +1,7 @@
 {
   "app_name": "florad",
   "app_version": "929d7bc",
-  "genesis_time": "2024-07-16T08:00:15.268861319Z",
+  "genesis_time": "2024-07-16T11:36:20.924032713Z",
   "chain_id": "flora-devnet-1",
   "initial_height": 1,
   "app_hash": null,
@@ -32,20 +32,6 @@
           "pub_key": null,
           "account_number": "1",
           "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "flora1l4mu52s04azrlkray8vydpejexhlcnwu47z900",
-          "pub_key": null,
-          "account_number": "2",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "flora1nsramc7gnszz2e8q87zldvj7vlcq4cy6k93pq4",
-          "pub_key": null,
-          "account_number": "3",
-          "sequence": "0"
         }
       ]
     },
@@ -58,15 +44,6 @@
         "default_send_enabled": true
       },
       "balances": [
-        {
-          "address": "flora1nsramc7gnszz2e8q87zldvj7vlcq4cy6k93pq4",
-          "coins": [
-            {
-              "denom": "uflrd",
-              "amount": "2000000000000"
-            }
-          ]
-        },
         {
           "address": "flora1mkz90t3w560ej5hgyva08073zu3xr550fxpfc8",
           "coins": [
@@ -84,21 +61,12 @@
               "amount": "2000000000000"
             }
           ]
-        },
-        {
-          "address": "flora1l4mu52s04azrlkray8vydpejexhlcnwu47z900",
-          "coins": [
-            {
-              "denom": "uflrd",
-              "amount": "2000000000000"
-            }
-          ]
         }
       ],
       "supply": [
         {
           "denom": "uflrd",
-          "amount": "7000000000000"
+          "amount": "3000000000000"
         }
       ],
       "denom_metadata": [],
@@ -152,194 +120,7 @@
       "forward_relayers": []
     },
     "genutil": {
-      "gen_txs": [
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "esp1",
-                  "identity": "",
-                  "website": "https://esprezzo.io",
-                  "security_contact": "aj@esprezzo.io",
-                  "details": "In house validator"
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "",
-                "validator_address": "floravaloper1nsramc7gnszz2e8q87zldvj7vlcq4cy6rs4atj",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "q886JQQ1Pwd5uQrkI1FxeHKIWXBpyqXsl76odtn4ZuQ="
-                },
-                "value": {
-                  "denom": "uflrd",
-                  "amount": "1000000000000"
-                }
-              }
-            ],
-            "memo": "7b2a2ac679bc4ddc151d6c4ee97e4d2ba1244ec8@172.31.11.77:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A+7KaAkL/JPqC1RBWKglMbVrU5Qj24VcoiPm9ENYmwrT"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            },
-            "tip": null
-          },
-          "signatures": [
-            "4PhKlOQfRiTMlIxGIVv0b2hVnKjf9bF1mUMfxPSHheQdMpcS8+roGpkHIwKy6kqfuCPbu07mERq/BlkAfK6+pg=="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "ChainTools",
-                  "identity": "1857FF1BC2EA6A69",
-                  "website": "https://chaintools.tech",
-                  "security_contact": "contact@chaintools.tech",
-                  "details": "STAKE | LEARN | EARN | Delegate to our validators and dive into blockchain technology with us."
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "",
-                "validator_address": "floravaloper17rz489jqe4uws0mezwprc4nnj5r6t3traxd7fq",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "GuxYUOyb6FOLh2npD6UqoQNgfUXXac/Ms3seNThk3eM="
-                },
-                "value": {
-                  "denom": "uflrd",
-                  "amount": "1000000000000"
-                }
-              }
-            ],
-            "memo": "e65a2f9395c8845441ade33c4d3ed7d5772b8bac@188.165.226.46:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AwuLSqg4eniHTCEYAvArVxm250Ls+ZF/K2rEenEgHpiG"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            },
-            "tip": null
-          },
-          "signatures": [
-            "llrj24tiDZotOzQRV2Z/ngMDTClsuOGa+nIguQ4ODT1yv1Jyy3RO41TxDDt6/oQIGBkXOSc0lYitFf0vznh2Kg=="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "esp1",
-                  "identity": "",
-                  "website": "https://esprezzo.io",
-                  "security_contact": "aj@esprezzo.io",
-                  "details": "In house validator"
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "",
-                "validator_address": "floravaloper1l4mu52s04azrlkray8vydpejexhlcnwuqtxeyg",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "EAE2y6MaqKmplXeFJoi7flr4Z7KDFkP92jsJcCwROOQ="
-                },
-                "value": {
-                  "denom": "uflrd",
-                  "amount": "1000000000000"
-                }
-              }
-            ],
-            "memo": "ef3c811bf5b95eddadff7228bae5b0015f168f3c@172.173.12.10:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AugrGkQOUGZLlzv41QfYDg6CACw+lT3PAtV5hDimeQJL"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            },
-            "tip": null
-          },
-          "signatures": [
-            "8wwuIjbYI5NcNr6rF8R1I+dJfUICQTdPOonbbKU3M/gNxuMR49kyiOatsLxEnKAfdcE9D7+78yzl2EVKghwalQ=="
-          ]
-        }
-      ]
+      "gen_txs": []
     },
     "globalfee": {
       "params": {
@@ -361,15 +142,15 @@
             "amount": "10000000"
           }
         ],
-        "max_deposit_period": "3600s",
-        "voting_period": "3600s",
+        "max_deposit_period": "172800s",
+        "voting_period": "172800s",
         "quorum": "0.334000000000000000",
         "threshold": "0.500000000000000000",
         "veto_threshold": "0.334000000000000000",
         "min_initial_deposit_ratio": "0.000000000000000000",
         "proposal_cancel_ratio": "0.500000000000000000",
         "proposal_cancel_dest": "",
-        "expedited_voting_period": "1800s",
+        "expedited_voting_period": "86400s",
         "expedited_threshold": "0.667000000000000000",
         "expedited_min_deposit": [
           {
@@ -496,7 +277,7 @@
     },
     "slashing": {
       "params": {
-        "signed_blocks_window": "10000",
+        "signed_blocks_window": "100",
         "min_signed_per_window": "0.500000000000000000",
         "downtime_jail_duration": "600s",
         "slash_fraction_double_sign": "0.050000000000000000",
@@ -507,7 +288,7 @@
     },
     "staking": {
       "params": {
-        "unbonding_time": "3600s",
+        "unbonding_time": "1814400s",
         "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
