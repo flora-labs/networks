@@ -32,6 +32,13 @@
           "pub_key": null,
           "account_number": "1",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "flora1nsramc7gnszz2e8q87zldvj7vlcq4cy6k93pq4",
+          "pub_key": null,
+          "account_number": "2",
+          "sequence": "0"
         }
       ]
     },
@@ -44,6 +51,15 @@
         "default_send_enabled": true
       },
       "balances": [
+        {
+          "address": "flora1nsramc7gnszz2e8q87zldvj7vlcq4cy6k93pq4",
+          "coins": [
+            {
+              "denom": "uflrd",
+              "amount": "12000000"
+            }
+          ]
+        },
         {
           "address": "flora17rz489jqe4uws0mezwprc4nnj5r6t3trgnfzz8",
           "coins": [
@@ -66,7 +82,7 @@
       "supply": [
         {
           "denom": "uflrd",
-          "amount": "120000000"
+          "amount": "132000000"
         }
       ],
       "denom_metadata": [],
