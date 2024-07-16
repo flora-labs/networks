@@ -49,7 +49,7 @@
           "coins": [
             {
               "denom": "uflrd",
-              "amount": "10000000"
+              "amount": "110000000"
             }
           ]
         },
@@ -66,7 +66,7 @@
       "supply": [
         {
           "denom": "uflrd",
-          "amount": "20000000"
+          "amount": "120000000"
         }
       ],
       "denom_metadata": [],
@@ -147,7 +147,7 @@
                 },
                 "value": {
                   "denom": "uflrd",
-                  "amount": "10000000"
+                  "amount": "80000000"
                 }
               }
             ],
@@ -180,7 +180,7 @@
             "tip": null
           },
           "signatures": [
-            "2PO53IvgAAJYRIGZw7wg/M4i/o7lFPeSesDKLjUnbqg7YMz3Iv1PHgIK1idyLarY7loBGS3DGMnpV5VJwApsfQ=="
+            "XqIWRjBU/dBSpBJ5rg3YBASZZlQOvoNbqLLUXTGuc7EU/lC7I0YfMVGdUNVkDx8kypVl2b/5A0JGemrTUWXWpw=="
           ]
         },
         {
